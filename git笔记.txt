@@ -5,3 +5,5 @@ git add    ./aaa.html				存放在暂存区
 git  commit -m "说明记录提交类容"		存放在版本库
 git status 				查看状态
 git commit  --all  -m "说明"			直接放进版本库跳过暂存区
+git log/git log  --oneline	查看存放进版本库的历史记录
+git reflog
