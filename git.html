@@ -22,14 +22,26 @@
     <p>git relog</p>查看所有的历史
     <p>git reset  --hard Head~0</p>表示回退到上一次提交时的状态Head~0
 
-    <p>git branch dev</p>创建一个分支   刚创建时里面的版本好事和master一样的
+    git branch查看当前所在分支
 
-    <p>git checkout dev</p>切换到dev分支    
+    <p>git branch dev</p>创建一个分支   刚创建时里面的版本好事和master一样的
+    当前还在master主分支里面
+    <p>git checkout dev</p>切换到dev分支
+    <p>git commit --all -m "test"</p>在分支里面添加不完整版本
+    <p>git commit --all -m "完整版"</p>完整版
+    dev分支里面的版本自由自己才能看到   外面的master主分支不显示
+    <p>git checkout master</p>切换到master主分支下面
+    <p>git merge dev</p>将dev分支里面的版本合并在master版本里面
+
+
+    <p>把本地的代码提交到github上面</p>
+    git push  github地址   master
+
 
     <p>第八条完成版</p>
     <p>第七条bug</p>
     <p>test</p>
-
+    主分支里面合并的时候  先合并分支版本  然后再再主分支里面添加其他版本 要不会冲突
     <h1 style="color: aquamarine">git commit all -m "说明"</h1>一次性把修改过的文件放进仓库
 </body>
 </html>
