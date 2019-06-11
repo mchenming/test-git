@@ -1,0 +1,7 @@
+git init   创建版本酷
+git config  --global user.name  "chenming" 记录用户名
+git config  --global user.email  "2232531977@qq.com"记录邮箱
+git add    ./aaa.html				存放在暂存区
+git  commit -m "说明记录提交类容"		存放在版本库
+git status 				查看状态
+git commit  --all  -m "说明"			直接放进版本库跳过暂存区
